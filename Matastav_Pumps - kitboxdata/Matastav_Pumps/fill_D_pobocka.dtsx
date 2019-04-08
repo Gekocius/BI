@@ -1,0 +1,421 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/6/2019 3:05:47 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-I7F27PG"
+  DTS:CreatorName="DESKTOP-I7F27PG\vrana"
+  DTS:DTSID="{C4734F3C-18C3-44BC-82B1-D26547049720}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.1100.123"
+  DTS:LocaleID="1029"
+  DTS:ObjectName="fill_D_pobocka"
+  DTS:PackageType="5"
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{FB4FEF25-B369-419E-81F5-430423ACDE7A}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Insert data to d_pobocka"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{f0e9024d-8991-4e0e-aa99-68faeb3bcc39}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Insert data to d_pobocka"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Insert data to d_pobocka\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[AD/vrad00].[vrad00_D_Pobocka]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1250</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Insert data to d_pobocka\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="{DB6DBF2C-F346-40FD-93D8-17E343EC8888}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[localhost.4IT436]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Insert data to d_pobocka\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Nazev]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Nazev"
+                      externalMetadataColumnId="Package\Insert data to d_pobocka\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Pobocka]"
+                      lineageId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].Columns[Nazev]" />
+                    <inputColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[idpob]"
+                      cachedDataType="i4"
+                      cachedName="idpob"
+                      externalMetadataColumnId="Package\Insert data to d_pobocka\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID]"
+                      lineageId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].Columns[idpob]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID]"
+                      dataType="i4"
+                      name="ID" />
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Pobocka]"
+                      dataType="wstr"
+                      length="255"
+                      name="Pobocka" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Insert data to d_pobocka\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Insert data to d_pobocka\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Insert data to d_pobocka\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Insert data to d_pobocka\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Insert data to d_pobocka\OLE DB Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="OLE DB Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">t_pobocky</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1250</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Insert data to d_pobocka\OLE DB Source.Connections[OleDbConnection]"
+                  connectionManagerID="{0333E722-89FD-46AF-AF96-7C4B685C58F9}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[Matastav_DB]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].Columns[Nazev]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Nazev]"
+                      length="50"
+                      lineageId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].Columns[Nazev]"
+                      name="Nazev"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].Columns[idpob]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[idpob]"
+                      lineageId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].Columns[idpob]"
+                      name="idpob"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Nazev]"
+                      dataType="wstr"
+                      length="50"
+                      name="Nazev" />
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[idpob]"
+                      dataType="i4"
+                      name="idpob" />
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Zkratka]"
+                      dataType="wstr"
+                      length="50"
+                      name="Zkratka" />
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Ulice]"
+                      dataType="wstr"
+                      length="100"
+                      name="Ulice" />
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Mesto]"
+                      dataType="wstr"
+                      length="100"
+                      name="Mesto" />
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PSC]"
+                      dataType="wstr"
+                      length="50"
+                      name="PSC" />
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Telefon]"
+                      dataType="wstr"
+                      length="50"
+                      name="Telefon" />
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Fax]"
+                      dataType="wstr"
+                      length="50"
+                      name="Fax" />
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Email]"
+                      dataType="wstr"
+                      length="50"
+                      name="Email" />
+                    <externalMetadataColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Najem]"
+                      dataType="cy"
+                      name="Najem" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Nazev]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Nazev]"
+                      name="Nazev" />
+                    <outputColumn
+                      refId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[idpob]"
+                      dataType="i4"
+                      lineageId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[idpob]"
+                      name="idpob" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Insert data to d_pobocka.Paths[OLE DB Source Output]"
+              endId="Package\Insert data to d_pobocka\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Insert data to d_pobocka\OLE DB Source.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="198,42"
+          Id="Package\Insert data to d_pobocka"
+          TopLeft="44,63" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Insert data to d_pobocka">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Insert data to d_pobocka\OLE DB Destination"
+          TopLeft="92,152" />
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Insert data to d_pobocka\OLE DB Source"
+          TopLeft="97,64" />
+        <EdgeLayout
+          Id="Package\Insert data to d_pobocka.Paths[OLE DB Source Output]"
+          TopLeft="174.75,106">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46"
+              Start="0,0"
+              End="0,38.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Insert data to d_pobocka\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Insert data to d_pobocka\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

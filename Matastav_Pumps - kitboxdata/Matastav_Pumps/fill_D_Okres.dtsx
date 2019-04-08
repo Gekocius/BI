@@ -11,8 +11,8 @@
   DTS:LocaleID="1029"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{4BBDF506-E5E7-4E86-B2E1-08F4A72126FE}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{71B17A12-E020-49B0-973B-DDA771CB2BE6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -559,7 +559,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{DB6DBF2C-F346-40FD-93D8-17E343EC8888}"
-          SQLTask:SqlStatementSource="Update vrad00_D_Okres&#xA;Set Okres = 'Hlavní město Praha'&#xA;Where Okres = 'Praha';&#xA;Update vrad00_D_Okres&#xA;Set Okres = 'Brno-město'&#xA;Where Okres = 'Brno - město';" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Update vrad00_D_Okres&#xA;Set Okres = N'Hlavní město Praha'&#xA;Where Okres = 'Praha';&#xA;Update vrad00_D_Okres&#xA;Set Okres = N'Brno-město'&#xA;Where Okres Like 'Brno - m%sto';" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>

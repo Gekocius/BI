@@ -47,7 +47,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[AD/vrad00].[vrad00_D_Kat_Zakaznik]</property>
+                  name="OpenRowset">[AD\vrad00].[vrad00_D_Kat_Zakaznik]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."

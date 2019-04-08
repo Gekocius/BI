@@ -30,7 +30,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{DB6DBF2C-F346-40FD-93D8-17E343EC8888}"
-          SQLTask:SqlStatementSource="INSERT INTO [AD/vrad00].[vrad00_D_Prijem_Vydaj_Druh]&#xA;           ([Nazev])&#xA;     VALUES&#xA;           ('Zdroj'), &#xA;&#x9;&#x9;   ('Nájem'),&#xA;&#x9;&#x9;   ('Režie pobočky'),&#xA;&#x9;&#x9;   ('Mzda'),&#xA;&#x9;&#x9;   ('Osobní výdaje');" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="INSERT INTO [AD\vrad00].[vrad00_D_Prijem_Vydaj_Druh]&#xA;           ([Nazev])&#xA;     VALUES&#xA;           ('Zdroj'), &#xA;&#x9;&#x9;   ('Nájem'),&#xA;&#x9;&#x9;   ('Režie pobočky'),&#xA;&#x9;&#x9;   ('Mzda'),&#xA;&#x9;&#x9;   ('Osobní výdaje');" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>

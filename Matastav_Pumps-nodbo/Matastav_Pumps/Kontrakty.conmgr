@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Kontrakty"
+  DTS:DTSID="{1806D108-5ED4-44C2-96C4-BD7816C91D3F}"
+  DTS:CreationName="MULTIFLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1029"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1250"
+      DTS:ConnectionString="C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_1.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_2.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_3.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_4.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_5.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_6.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_7.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_8.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_9.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_10.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_11.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_12.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_13.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_14.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_15.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_16.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_17.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_18.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_19.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_20.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_21.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_22.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_23.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_24.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_25.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_26.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_27.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_28.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_29.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_30.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_31.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_32.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_33.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_34.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_35.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_36.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_37.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_38.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_39.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_40.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_41.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_42.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_43.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_44.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_45.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_46.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_47.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_48.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_49.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_50.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_51.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_52.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_53.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_54.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_55.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_56.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_57.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_58.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_59.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_60.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_61.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_62.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_63.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_64.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_65.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_66.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_67.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_68.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_69.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_70.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_71.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_72.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_73.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_74.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_75.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_76.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_77.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_78.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_79.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_80.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_81.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_82.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_83.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_84.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_85.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_86.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_87.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_88.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_89.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_90.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_91.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_92.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_93.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_94.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_95.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_96.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_97.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_98.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_99.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_100.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_101.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_102.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_103.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_104.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_105.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_106.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_107.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_108.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_109.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_110.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_111.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_112.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_113.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_114.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_115.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_116.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_117.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_118.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_119.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_120.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_121.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_122.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_123.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_124.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_125.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_126.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_127.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_128.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_129.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_130.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_131.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_132.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_133.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_134.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_135.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_136.txt|C:\Users\vrana\source\repos\Matastav_Pumps\DataSources\t_kontrakty_snimek_137.txt">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="&quot;idkontr&quot;"
+          DTS:DTSID="{2AF64765-B6E1-4D28-AA74-D198C00D75DD}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="&quot;idzak&quot;"
+          DTS:DTSID="{326A0F12-05E4-411C-9AE8-B586026AF6CA}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="&quot;idzdroje&quot;"
+          DTS:DTSID="{58C7512D-5D07-4057-96A1-5B3C6EF3CBB0}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="&quot;datumod&quot;"
+          DTS:DTSID="{0A6AD407-591B-45C2-A785-16A0E8313165}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="&quot;datumdo&quot;"
+          DTS:DTSID="{EE347EC6-FADB-4429-B93D-C8F25D9995AD}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="&quot;cena_celkem&quot;"
+          DTS:DTSID="{97080A0C-753D-42AE-B805-CABB1EC3483D}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="&quot;naklady_celkem&quot;"
+          DTS:DTSID="{3C669A0E-0812-440F-9986-9082E859426A}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

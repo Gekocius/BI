@@ -11,8 +11,8 @@
   DTS:LocaleID="1029"
   DTS:ObjectName="fill_d_kraj"
   DTS:PackageType="5"
-  DTS:VersionBuild="24"
-  DTS:VersionGUID="{259B6F0D-DA11-4558-9478-7C43D0A9B42C}">
+  DTS:VersionBuild="25"
+  DTS:VersionGUID="{F07E1B42-4AD3-41CF-95AD-30025DEC1AF4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -652,6 +652,13 @@
                       cachedName="ID"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID]"
                       lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[ID]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[F2]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="F2"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Kraj]"
+                      lineageId="Package\Data Flow Task\Excel Source.Outputs[Excel Source Output].Columns[F2]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -739,10 +746,6 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="171,42"
-          Id="Package\Data Flow Task\OLE DB Destination"
-          TopLeft="59,322" />
-        <NodeLayout
           Size="139,42"
           Id="Package\Data Flow Task\Excel Source"
           TopLeft="76,39" />
@@ -750,6 +753,10 @@
           Size="155,42"
           Id="Package\Data Flow Task\Conditional Split"
           TopLeft="65,141" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Data Flow Task\OLE DB Destination"
+          TopLeft="59,322" />
         <NodeLayout
           Size="154,42"
           Id="Package\Data Flow Task\Derived Column"

@@ -1,8 +1,8 @@
 ﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Target>
-    <Database>cubes</Database>
-    <Server>localhost</Server>
-    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+    <Database>vrad00</Database>
+    <Server>kitbox2.vse.cz:20020</Server>
+    <ConnectionString>Data Source=kitbox2.vse.cz:20020;Timeout=0</ConnectionString>
   </Target>
   <Options>
     <TransactionalDeployment>false</TransactionalDeployment>
@@ -19,77 +19,77 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>C/roSpP42848IUdNSbI4DLS6F5c=04.05.2019 16:00:3604.05.2019 11:48:27</TimeStamp>
+        <TimeStamp>n14B4zQl09hSz3HEeM/o2jaGrUY=06.05.2019 9:41:1704.05.2019 14:40:14</TimeStamp>
         <ID>
           <String>4IT436</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>MgO4gkGaRbArBYr5olumYXL6qRw=04.05.2019 19:05:1304.05.2019 14:34:51</TimeStamp>
+        <TimeStamp>QnO60QrA8aGc10CIbxGAcHE+mOg=06.05.2019 9:43:5204.05.2019 14:40:14</TimeStamp>
         <ID>
           <String>4IT436</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>xqumjoomaAdMzonYHju9ndrWijg=04.05.2019 19:02:3204.05.2019 15:10:38</TimeStamp>
+        <TimeStamp>fMaPoihzBrPNw4yWo3sgi5ZGxOc=06.05.2019 9:41:1704.05.2019 14:40:14</TimeStamp>
         <ID>
           <String>Vrad00 D Zakaznik</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>8MX3tdrAveu2JHFxH6j5NPuirkY=04.05.2019 21:56:0504.05.2019 16:42:17</TimeStamp>
+        <TimeStamp>pMcV2qhuCw2iEFO9lg5JF+ktwOM=06.05.2019 9:41:1704.05.2019 14:40:14</TimeStamp>
         <ID>
           <String>Vrad00 D Okres</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>LAjqdSSKFAvz7P78m0tGBblgqkk=04.05.2019 19:06:5304.05.2019 16:45:36</TimeStamp>
+        <TimeStamp>EfLfZJ3SKxJvjSrDe0aqu401VMo=06.05.2019 9:41:1704.05.2019 14:40:14</TimeStamp>
         <ID>
           <String>Vrad00 D Zdroj</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>IH2KUJnB8KEn44S1OuaAj3KrmaY=04.05.2019 19:03:3904.05.2019 16:46:39</TimeStamp>
+        <TimeStamp>dT14mYaD5W9SNMEOxIe4ynC7vY4=06.05.2019 9:41:1704.05.2019 14:40:14</TimeStamp>
         <ID>
           <String>Vrad00 D Plan Skutecnost</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>2JQ+ce1/z3RSmT8SFaIy1E8hTEM=04.05.2019 19:06:2104.05.2019 16:47:18</TimeStamp>
+        <TimeStamp>Buwc6lGi8g5LzlzNvEXuVDHNdYg=06.05.2019 9:41:1704.05.2019 14:40:14</TimeStamp>
         <ID>
           <String>Vrad00 D Zamestanec</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>i1j6W3fg0innoEfUY4t2uWf0GoA=04.05.2019 19:08:2604.05.2019 16:56:46</TimeStamp>
+        <TimeStamp>y/ocVrHRVKXqU1hrd2i1+0ywzEM=06.05.2019 9:41:1704.05.2019 14:40:14</TimeStamp>
         <ID>
           <String>Vrad00 D Prijem Vydaj</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>0JT1Nz52pBusVAuXHtEQSM8k0hQ=04.05.2019 19:54:2304.05.2019 18:16:16</TimeStamp>
+        <TimeStamp>/6iFgILWW1phEeWsejSeJUbpTjI=06.05.2019 10:09:4306.05.2019 9:59:53</TimeStamp>
         <ID>
           <String>Time</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>flH9dS28LsitqyBZO3U1sMo6uXA=04.05.2019 22:12:1604.05.2019 18:02:25bLDgAV+j9eRrb4XMGXgiPSefG0U=04.05.2019 19:39:4304.05.2019 18:02:25</TimeStamp>
+        <TimeStamp>r4ZM6RuZc1d+XzUB2y+NwX31x9w=06.05.2019 10:09:4304.05.2019 14:40:14nz6ygw1ldSmwH8Oz8JEIRh+6KoE=06.05.2019 9:41:1704.05.2019 14:40:14</TimeStamp>
         <ID>
           <String>Cube_Kontrakty</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>7iFl4s7VtzswqZ1oXeHU4IwNt5Q=04.05.2019 19:54:2304.05.2019 19:22:43B+KQnDYTYglJx+mTCjuO7nQ23lk=04.05.2019 19:22:4304.05.2019 19:22:43</TimeStamp>
+        <TimeStamp>0hTlWJ58EcXNtanCgJHhX9bjtqA=06.05.2019 10:09:4304.05.2019 14:40:141XHW9vtgIuOOQ3q5ibAJDkLa+E8=06.05.2019 9:41:1704.05.2019 14:40:14</TimeStamp>
         <ID>
           <String>Cube_Prijmy_Vydaje</String>
         </ID>
@@ -97,14 +97,14 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>Q1ks4tK2zCI6lJRlIaK0/Q2/wsA=04.05.2019 11:19:3204.05.2019 11:19:31</TimeStamp>
+      <TimeStamp>amVhZUj/nB1Lu8uHtAFan2mdDfA=06.05.2019 9:41:1704.05.2019 14:40:14</TimeStamp>
       <ID>
-        <String>cubes</String>
+        <String>vrad00</String>
       </ID>
     </DatabaseSnapshot>
     <Granularity>Coarse</Granularity>
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-05-04T20:12:19.356667Z</LastDeployed>
+  <LastDeployed>2019-05-04T22:13:43.696667Z</LastDeployed>
 </DeploymentSnapshot>

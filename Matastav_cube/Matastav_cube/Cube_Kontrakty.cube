@@ -325,48 +325,48 @@
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="1a0e54c5-a8c2-49a6-ba26-52add0d928a3">
+    <Dimension dwd:design-time-name="fbd66b78-9898-41c9-9ee3-a709b1f249b5">
       <ID>Time</ID>
       <Name>Time</Name>
       <DimensionID>Time</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="33e12d86-1274-4686-be05-40a64a1be8e5">
+        <Attribute dwd:design-time-name="ba4fc3d2-cb79-4343-958b-0c6ec80c2495">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1b7229c8-8f10-4b41-a465-276c12ef1d74">
+        <Attribute dwd:design-time-name="46e380aa-13b0-454f-bfc9-2badf1bf8a53">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8ef88ac6-c0ee-40c9-9eb3-07b52dae7c05">
+        <Attribute dwd:design-time-name="6d2e7bb9-95e4-4732-a78f-f83a823748e5">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="22dacbd4-d4ef-4580-ba16-8a61ff8affe5">
+        <Attribute dwd:design-time-name="3b18c16e-6a54-4c31-8b21-5b86dc1fb8fc">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="25e899b8-db26-4e7e-9e7f-815923492ea3">
+        <Attribute dwd:design-time-name="fbe7fde5-45a9-47d7-b8fb-ea57335e8eb7">
           <AttributeID>Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="614bbd38-e8f8-4756-8844-ab7c310afe63">
+        <Attribute dwd:design-time-name="7f0ba59a-481f-455c-8324-d69ebe0c086e">
           <AttributeID>Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3db53b01-a7c8-4992-8bd6-95c24ea7cdff">
+        <Attribute dwd:design-time-name="74b3300e-7764-485a-9ff8-f07b8d8705e2">
           <AttributeID>Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1b910ac8-275a-4970-9eb6-3f66e8b0bf0d">
+        <Attribute dwd:design-time-name="88b15f70-405c-4e94-9cb7-ed5c2d01054c">
           <AttributeID>Month Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="089a2a2e-a658-4470-abc9-f3f6b23da872">
+        <Attribute dwd:design-time-name="396dcac3-c69a-4267-8ccf-72c246c885d2">
           <AttributeID>Month Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="051632df-df2a-4733-a6a8-1594608b6bbf">
+        <Attribute dwd:design-time-name="7e3cb57e-d5b8-417b-bb6f-21a61dd7bb00">
           <AttributeID>Quarter Of Year</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="fc94efdd-6aaf-4736-9d10-817d872b8cd4">
-          <HierarchyID>Year -  Quarter -  Month -  Date</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="f6b33fa1-958e-43c3-b575-f38d79e8886d">
+        <Hierarchy dwd:design-time-name="448a265d-d28b-4d54-8f85-c1c2168d1266">
           <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="8840eb21-2e58-435a-b27b-a0300acbfd1c">
+          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
@@ -503,15 +503,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="57ecaf44-4329-4158-9054-9739044e38ce">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="643441f3-6474-4d07-ab6b-ce6bcaf4c78f">
           <CubeDimensionID>Time</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="8b8b8ff1-2445-44f9-a31d-567624458cfb">
+            <Attribute dwd:design-time-name="d9e93629-58fb-4798-91f1-39abf5d42444">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="122980a9-3511-4c28-9e40-28645bd3ee81">
+                <KeyColumn dwd:design-time-name="f90620a6-21ce-4855-984c-b1d9bfe74246">
                   <DataType>Date</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4a70d2ac-7ba0-4fae-a48e-75db758d1e1f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7b203849-e467-44c0-a084-54918c3d8f6c">
                     <TableID>dbo_vrad00_F_kontrakt</TableID>
                     <ColumnID>datum</ColumnID>
                   </Source>

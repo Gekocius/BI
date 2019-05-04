@@ -362,29 +362,6 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
           <Value>100</Value>
         </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
-          <Value>
-            <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
-              <Shapes NodeWidth="156">
-                <Shape Id="ID" Expanded="false">
-                  <Attributes>
-                    <Attribute Id="ID" />
-                    <Attribute Id="Okres" />
-                  </Attributes>
-                  <Position x="20" y="20" />
-                </Shape>
-                <Shape Id="Vrad00 D Kraj - ID" Expanded="false">
-                  <Attributes>
-                    <Attribute Id="Vrad00 D Kraj - ID" />
-                    <Attribute Id="Kraj" />
-                  </Attributes>
-                  <Position x="220" y="20" />
-                </Shape>
-              </Shapes>
-            </DiagramLayout>
-          </Value>
-        </Annotation>
       </Annotations>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
@@ -1514,8 +1491,7 @@
       <State>Unprocessed</State>
       <Source xsi:type="TimeBinding">
         <CalendarStartDate>1990-01-01T00:00:00Z</CalendarStartDate>
-        <CalendarEndDate>2011-12-31T00:00:00Z</CalendarEndDate>
-        <FirstDayOfWeek>2</FirstDayOfWeek>
+        <CalendarEndDate>2012-12-31T00:00:00Z</CalendarEndDate>
       </Source>
       <Type>Time</Type>
       <CurrentStorageMode>Molap</CurrentStorageMode>
@@ -1742,8 +1718,8 @@
       </Attributes>
       <Hierarchies>
         <Hierarchy>
-          <ID>Year -  Quarter -  Month -  Date</ID>
-          <Name>Year -  Quarter -  Month</Name>
+          <ID>Hierarchy</ID>
+          <Name>Year - Quarter - Month</Name>
           <Levels>
             <Level>
               <ID>Year</ID>
@@ -1763,8 +1739,8 @@
           </Levels>
         </Hierarchy>
         <Hierarchy>
-          <ID>Hierarchy</ID>
-          <Name>Year - Month</Name>
+          <ID>Hierarchy 1</ID>
+          <Name>Year -  Month</Name>
           <Levels>
             <Level>
               <ID>Year</ID>
@@ -2148,10 +2124,10 @@
           </Attributes>
           <Hierarchies>
             <Hierarchy>
-              <HierarchyID>Year -  Quarter -  Month -  Date</HierarchyID>
+              <HierarchyID>Hierarchy</HierarchyID>
             </Hierarchy>
             <Hierarchy>
-              <HierarchyID>Hierarchy</HierarchyID>
+              <HierarchyID>Hierarchy 1</HierarchyID>
             </Hierarchy>
           </Hierarchies>
         </Dimension>
@@ -2690,10 +2666,10 @@
           </Attributes>
           <Hierarchies>
             <Hierarchy>
-              <HierarchyID>Year -  Quarter -  Month -  Date</HierarchyID>
+              <HierarchyID>Hierarchy</HierarchyID>
             </Hierarchy>
             <Hierarchy>
-              <HierarchyID>Hierarchy</HierarchyID>
+              <HierarchyID>Hierarchy 1</HierarchyID>
             </Hierarchy>
           </Hierarchies>
         </Dimension>
@@ -2795,6 +2771,24 @@
                       <Source xsi:type="ColumnBinding">
                         <TableID>dbo_vrad00_F_Prijmy_vydaje</TableID>
                         <ColumnID>zamestanec_id</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Time</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Date</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_vrad00_F_Prijmy_vydaje</TableID>
+                        <ColumnID>datum</ColumnID>
                       </Source>
                     </KeyColumn>
                   </KeyColumns>

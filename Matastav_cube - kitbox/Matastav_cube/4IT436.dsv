@@ -14,7 +14,6 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
-      <Value></Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
@@ -26,14 +25,412 @@
         <Layouts xmlns="">
           <Diagram>
             <Name>_ALL_TABLES_</Name>
-            <DiagramLayout />
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="27" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7564" scrolltop="-1508" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="29104" y="15954" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Typ_Zdroj" left="5420" top="7900" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Typ_Zdroj" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Plan_skutecnost" left="14119" top="17516" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Plan_skutecnost" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Prijem_Vydaj_Druh" left="20057" top="14530" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Prijem_Vydaj_Druh" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Pobocka" left="11420" top="0" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Pobocka" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_F_kontrakt" left="20" top="8981" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000043110000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_F_kontrakt" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Zamestanec" left="11420" top="4279" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b00004d0c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Zamestanec" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Okres" left="20" top="4279" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3035" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000db0b0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Okres" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Zdroj" left="5420" top="12179" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Zdroj" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Kraj" left="20" top="0" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Kraj" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Funkce" left="16820" top="4914" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Funkce" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Prijem_Vydaj" left="20057" top="9828" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Prijem_Vydaj" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Kat_Zakaznik" left="20" top="20502" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Kat_Zakaznik" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_F_Prijmy_vydaje" left="13582" top="11121" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="4075" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000eb0f00009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_F_Prijmy_vydaje" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Zakaznik" left="20" top="15800" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="3071" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000ff0b0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AD\vrad00_vrad00_D_Zakaznik" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="21" top="17802" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_D_Zakaznik_vrad00_D_Kat_Zakaznik]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="14" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="420" y="20502" />
+                    <point x="420" y="19302" />
+                    <point x="455" y="19302" />
+                    <point x="455" y="18102" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12521" top="6929" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="3398" height="4492" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_F_Prijmy_vydaje_vrad00_D_Zamestanec]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="13" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="12920" y="7428" />
+                    <point x="12920" y="9274" />
+                    <point x="15619" y="9274" />
+                    <point x="15619" y="11121" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="15220" top="14816" logicalid="17" controlid="17" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_F_Prijmy_vydaje_vrad00_D_Plan_skutecnost]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="13" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="15619" y="17516" />
+                    <point x="15619" y="15116" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="17357" top="10580" logicalid="18" controlid="18" masterid="0" hint1="0" hint2="0" width="3000" height="2838" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_F_Prijmy_vydaje_vrad00_D_Prijem_Vydaj]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="11" destid="13" sourceattachpoint="12" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="20057" y="10979" />
+                    <point x="18857" y="10979" />
+                    <point x="18857" y="13118" />
+                    <point x="17657" y="13118" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="21158" top="11830" logicalid="19" controlid="19" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_D_Prijem_Vydaj_vrad00_D_Prijem_Vydaj_Druh]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="11" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="21557" y="14530" />
+                    <point x="21557" y="12130" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="6521" top="9280" logicalid="20" controlid="20" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_D_Zdroj_vrad00_D_Typ_Zdroj]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="8" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6920" y="9779" />
+                    <point x="6920" y="12179" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="21" top="1380" logicalid="21" controlid="21" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_D_Okres_vrad00_D_Kraj]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="7" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="420" y="1879" />
+                    <point x="420" y="3079" />
+                    <point x="437" y="3079" />
+                    <point x="437" y="4279" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12521" top="1380" logicalid="22" controlid="22" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_D_Zamestanec_vrad00_D_Pobocka]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="12920" y="1879" />
+                    <point x="12920" y="4279" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14120" top="5454" logicalid="23" controlid="23" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_D_Zamestanec_vrad00_D_Funkce]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="6" sourceattachpoint="12" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="16820" y="5853" />
+                    <point x="14420" y="5853" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="38" top="6082" logicalid="24" controlid="24" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_F_kontrakt_vrad00_D_Okres]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="5" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="437" y="6581" />
+                    <point x="437" y="7781" />
+                    <point x="420" y="7781" />
+                    <point x="420" y="8981" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="56" top="13100" logicalid="25" controlid="25" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_F_kontrakt_vrad00_D_Zakaznik]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="14" destid="5" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="455" y="15800" />
+                    <point x="455" y="14600" />
+                    <point x="420" y="14600" />
+                    <point x="420" y="13400" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="10890" logicalid="26" controlid="26" masterid="0" hint1="0" hint2="0" width="3000" height="2840" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_F_kontrakt_vrad00_D_Zdroj]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="5" sourceattachpoint="12" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="5420" y="13330" />
+                    <point x="4220" y="13330" />
+                    <point x="4220" y="11190" />
+                    <point x="3020" y="11190" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>0</DiagramViewPortLeft>
-            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramViewPortLeft>-7564</DiagramViewPortLeft>
+            <DiagramViewPortTop>-1508</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
-            <DiagramZoom>100</DiagramZoom>
+            <DiagramZoom>75</DiagramZoom>
           </Diagram>
         </Layouts>
       </Value>
@@ -45,7 +442,7 @@
       <xs:element name="_x0034_IT436" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="d5f78720-8738-4f9a-a02a-9d8966883ca8">
         <xs:complexType>
           <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Typ_Zdroj" msprop:design-time-name="6e6374e2-80f9-4270-bd5f-1616a0fdcc9c" msprop:DbTableName="vrad00_D_Typ_Zdroj" msprop:FriendlyName="vrad00_D_Typ_Zdroj" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Typ_Zdroj" msprop:design-time-name="6e6374e2-80f9-4270-bd5f-1616a0fdcc9c" msprop:FriendlyName="vrad00_D_Typ_Zdroj" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Typ_Zdroj" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="3e8f3cb9-43fa-4872-8687-436190e4608e" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -59,7 +456,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Plan_skutecnost" msprop:design-time-name="c08b72f5-15c6-40f5-a413-3ac2078d9752" msprop:DbTableName="vrad00_D_Plan_skutecnost" msprop:FriendlyName="vrad00_D_Plan_skutecnost" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Plan_skutecnost" msprop:design-time-name="c08b72f5-15c6-40f5-a413-3ac2078d9752" msprop:FriendlyName="vrad00_D_Plan_skutecnost" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Plan_skutecnost" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="cbf84336-7e26-4006-9ecc-b59e6cde8253" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -73,7 +470,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Prijem_Vydaj_Druh" msprop:design-time-name="792edc8f-dceb-43f6-8526-431d9b52fee7" msprop:DbTableName="vrad00_D_Prijem_Vydaj_Druh" msprop:FriendlyName="vrad00_D_Prijem_Vydaj_Druh" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Prijem_Vydaj_Druh" msprop:design-time-name="792edc8f-dceb-43f6-8526-431d9b52fee7" msprop:FriendlyName="vrad00_D_Prijem_Vydaj_Druh" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Prijem_Vydaj_Druh" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="35a4515a-a96f-48e7-9b36-df4905405464" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -87,7 +484,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Pobocka" msprop:design-time-name="e39583af-7d93-4679-a770-2cb849c3227e" msprop:DbTableName="vrad00_D_Pobocka" msprop:FriendlyName="vrad00_D_Pobocka" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Pobocka" msprop:design-time-name="e39583af-7d93-4679-a770-2cb849c3227e" msprop:FriendlyName="vrad00_D_Pobocka" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Pobocka" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="bb6d7f09-525f-4921-b74d-bac1016fa145" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -101,7 +498,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_F_kontrakt" msprop:design-time-name="0131fcb1-3679-4c39-a230-2ee82ac7662f" msprop:DbTableName="vrad00_F_kontrakt" msprop:FriendlyName="vrad00_F_kontrakt" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_F_kontrakt" msprop:design-time-name="0131fcb1-3679-4c39-a230-2ee82ac7662f" msprop:FriendlyName="vrad00_F_kontrakt" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_F_kontrakt" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="7633b528-89e1-446d-a4eb-2496f84b65a3" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -115,7 +512,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Zamestanec" msprop:design-time-name="5403405a-ccc8-4b7a-9602-ce781b88ef0d" msprop:DbTableName="vrad00_D_Zamestanec" msprop:FriendlyName="vrad00_D_Zamestanec" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Zamestanec" msprop:design-time-name="5403405a-ccc8-4b7a-9602-ce781b88ef0d" msprop:FriendlyName="vrad00_D_Zamestanec" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Zamestanec" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="1d02dd33-5c86-4c00-99d9-957f453deaec" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -135,10 +532,17 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="CeleJmeno" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="[Jmeno]+[Prijmeni]" msprop:IsLogical="True" msprop:design-time-name="0bab8a50-34c6-4033-929b-f69f07917b07" msprop:DbColumnName="CeleJmeno" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="305" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Okres" msprop:design-time-name="d01a1f64-c7c1-4c85-a620-7f59dc588a63" msprop:DbTableName="vrad00_D_Okres" msprop:FriendlyName="vrad00_D_Okres" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Okres" msprop:design-time-name="d01a1f64-c7c1-4c85-a620-7f59dc588a63" msprop:FriendlyName="vrad00_D_Okres" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Okres" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="7b43429e-022c-4622-a50d-eb49e0ef17ab" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -153,7 +557,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Zdroj" msprop:design-time-name="708591f2-40a5-4351-8d8b-0c1198dfae84" msprop:DbTableName="vrad00_D_Zdroj" msprop:FriendlyName="vrad00_D_Zdroj" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Zdroj" msprop:design-time-name="708591f2-40a5-4351-8d8b-0c1198dfae84" msprop:FriendlyName="vrad00_D_Zdroj" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Zdroj" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="effb84c9-40b0-490d-a7c1-c26fa7289dfa" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -168,7 +572,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Kraj" msprop:design-time-name="abfe72b9-2f3f-4987-88ca-cd555f919cf2" msprop:DbTableName="vrad00_D_Kraj" msprop:FriendlyName="vrad00_D_Kraj" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Kraj" msprop:design-time-name="abfe72b9-2f3f-4987-88ca-cd555f919cf2" msprop:FriendlyName="vrad00_D_Kraj" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Kraj" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="af76bac4-ad3c-4efb-b46b-a1af39abf6ad" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -182,7 +586,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Funkce" msprop:design-time-name="2dfb0982-40b2-405d-9569-887cd87ca920" msprop:DbTableName="vrad00_D_Funkce" msprop:FriendlyName="vrad00_D_Funkce" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Funkce" msprop:design-time-name="2dfb0982-40b2-405d-9569-887cd87ca920" msprop:FriendlyName="vrad00_D_Funkce" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Funkce" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="47d0b27b-b075-4ff7-8f66-35b4086135cd" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -196,7 +600,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Prijem_Vydaj" msprop:design-time-name="f6b2cfd4-215b-4c3b-a15e-f844346286cf" msprop:DbTableName="vrad00_D_Prijem_Vydaj" msprop:FriendlyName="vrad00_D_Prijem_Vydaj" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Prijem_Vydaj" msprop:design-time-name="f6b2cfd4-215b-4c3b-a15e-f844346286cf" msprop:FriendlyName="vrad00_D_Prijem_Vydaj" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Prijem_Vydaj" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="1c9b9b87-990f-4b19-85ae-ad8673f590f9" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -211,7 +615,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Kat_Zakaznik" msprop:design-time-name="43966241-d98c-4899-bcf2-fc2bf7a22c2e" msprop:DbTableName="vrad00_D_Kat_Zakaznik" msprop:FriendlyName="vrad00_D_Kat_Zakaznik" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Kat_Zakaznik" msprop:design-time-name="43966241-d98c-4899-bcf2-fc2bf7a22c2e" msprop:FriendlyName="vrad00_D_Kat_Zakaznik" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Kat_Zakaznik" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="88de7ec2-23a1-4bbd-8e48-73d236232a23" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -225,7 +629,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_F_Prijmy_vydaje" msprop:design-time-name="566e24ba-cede-42e7-b1c4-730fcb507619" msprop:DbTableName="vrad00_F_Prijmy_vydaje" msprop:FriendlyName="vrad00_F_Prijmy_vydaje" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_F_Prijmy_vydaje" msprop:design-time-name="566e24ba-cede-42e7-b1c4-730fcb507619" msprop:FriendlyName="vrad00_F_Prijmy_vydaje" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_F_Prijmy_vydaje" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="756e0d00-d14a-42e0-9bd6-4bf8ea5b09b9" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -238,7 +642,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="AD_x005C_vrad00_vrad00_D_Zakaznik" msprop:design-time-name="f1a7b6db-4d37-4eff-bef0-8db33ad1a7b1" msprop:DbTableName="vrad00_D_Zakaznik" msprop:FriendlyName="vrad00_D_Zakaznik" msprop:DbSchemaName="AD\vrad00" msprop:TableType="Table">
+            <xs:element name="AD_x005C_vrad00_vrad00_D_Zakaznik" msprop:design-time-name="f1a7b6db-4d37-4eff-bef0-8db33ad1a7b1" msprop:FriendlyName="vrad00_D_Zakaznik" msprop:DbSchemaName="AD\vrad00" msprop:DbTableName="vrad00_D_Zakaznik" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="72618ad2-8509-4900-a0ea-9cf2f0189771" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
@@ -315,17 +719,17 @@
           <xs:selector xpath=".//AD_x005C_vrad00_vrad00_D_Zakaznik" />
           <xs:field xpath="Kat_ID" />
         </xs:keyref>
-        <xs:keyref name="FK_vrad00_F_Prijmy_vydaje_vrad00_D_Zamestanec" refer="AD_x005C_vrad00_vrad00_D_Zamestanec_Constraint1">
+        <xs:keyref name="FK_vrad00_F_Prijmy_vydaje_vrad00_D_Prijem_Vydaj" refer="AD_x005C_vrad00_vrad00_D_Prijem_Vydaj_Constraint1">
           <xs:selector xpath=".//AD_x005C_vrad00_vrad00_F_Prijmy_vydaje" />
-          <xs:field xpath="zamestanec_id" />
+          <xs:field xpath="Prijem_vydaj_id" />
         </xs:keyref>
         <xs:keyref name="FK_vrad00_F_Prijmy_vydaje_vrad00_D_Plan_skutecnost" refer="AD_x005C_vrad00_vrad00_D_Plan_skutecnost_Constraint1">
           <xs:selector xpath=".//AD_x005C_vrad00_vrad00_F_Prijmy_vydaje" />
           <xs:field xpath="Plan_skutecnost_id" />
         </xs:keyref>
-        <xs:keyref name="FK_vrad00_F_Prijmy_vydaje_vrad00_D_Prijem_Vydaj" refer="AD_x005C_vrad00_vrad00_D_Prijem_Vydaj_Constraint1">
+        <xs:keyref name="FK_vrad00_F_Prijmy_vydaje_vrad00_D_Zamestanec" refer="AD_x005C_vrad00_vrad00_D_Zamestanec_Constraint1">
           <xs:selector xpath=".//AD_x005C_vrad00_vrad00_F_Prijmy_vydaje" />
-          <xs:field xpath="Prijem_vydaj_id" />
+          <xs:field xpath="zamestanec_id" />
         </xs:keyref>
         <xs:keyref name="FK_vrad00_D_Prijem_Vydaj_vrad00_D_Prijem_Vydaj_Druh" refer="AD_x005C_vrad00_vrad00_D_Prijem_Vydaj_Druh_Constraint1">
           <xs:selector xpath=".//AD_x005C_vrad00_vrad00_D_Prijem_Vydaj" />
@@ -339,29 +743,28 @@
           <xs:selector xpath=".//AD_x005C_vrad00_vrad00_D_Okres" />
           <xs:field xpath="Kraj_ID" />
         </xs:keyref>
-        <xs:keyref name="FK_vrad00_D_Zamestanec_vrad00_D_Pobocka" refer="AD_x005C_vrad00_vrad00_D_Pobocka_Constraint1">
-          <xs:selector xpath=".//AD_x005C_vrad00_vrad00_D_Zamestanec" />
-          <xs:field xpath="pobocka_id" />
-        </xs:keyref>
         <xs:keyref name="FK_vrad00_D_Zamestanec_vrad00_D_Funkce" refer="AD_x005C_vrad00_vrad00_D_Funkce_Constraint1">
           <xs:selector xpath=".//AD_x005C_vrad00_vrad00_D_Zamestanec" />
           <xs:field xpath="funkce_id" />
         </xs:keyref>
-        <xs:keyref name="FK_vrad00_F_kontrakt_vrad00_D_Okres" refer="AD_x005C_vrad00_vrad00_D_Okres_Constraint1">
+        <xs:keyref name="FK_vrad00_D_Zamestanec_vrad00_D_Pobocka" refer="AD_x005C_vrad00_vrad00_D_Pobocka_Constraint1">
+          <xs:selector xpath=".//AD_x005C_vrad00_vrad00_D_Zamestanec" />
+          <xs:field xpath="pobocka_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_vrad00_F_kontrakt_vrad00_D_Zdroj" refer="AD_x005C_vrad00_vrad00_D_Zdroj_Constraint1">
           <xs:selector xpath=".//AD_x005C_vrad00_vrad00_F_kontrakt" />
-          <xs:field xpath="Okres_id" />
+          <xs:field xpath="zdroj_id" />
         </xs:keyref>
         <xs:keyref name="FK_vrad00_F_kontrakt_vrad00_D_Zakaznik" refer="AD_x005C_vrad00_vrad00_D_Zakaznik_Constraint1">
           <xs:selector xpath=".//AD_x005C_vrad00_vrad00_F_kontrakt" />
           <xs:field xpath="zakaznik_id" />
         </xs:keyref>
-        <xs:keyref name="FK_vrad00_F_kontrakt_vrad00_D_Zdroj" refer="AD_x005C_vrad00_vrad00_D_Zdroj_Constraint1">
+        <xs:keyref name="FK_vrad00_F_kontrakt_vrad00_D_Okres" refer="AD_x005C_vrad00_vrad00_D_Okres_Constraint1">
           <xs:selector xpath=".//AD_x005C_vrad00_vrad00_F_kontrakt" />
-          <xs:field xpath="zdroj_id" />
+          <xs:field xpath="Okres_id" />
         </xs:keyref>
       </xs:element>
     </xs:schema>
     <_x0034_IT436 xmlns="" />
   </Schema>
 </DataSourceView>
-

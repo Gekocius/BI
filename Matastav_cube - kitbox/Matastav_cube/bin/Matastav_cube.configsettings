@@ -3,9 +3,9 @@
     <DataSources>
       <DataSource>
         <ID>4IT436</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=4IT436</ConnectionString>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=kitboxdata;Integrated Security=SSPI;Initial Catalog=4IT436</ConnectionString>
         <ImpersonationInfo>
-          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>

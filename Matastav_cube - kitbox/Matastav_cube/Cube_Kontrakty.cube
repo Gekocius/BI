@@ -6,216 +6,6 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
-      <Value>
-        <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="28" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10914" scrolltop="-51" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23151" y="12515" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
-            <font>
-              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
-            </font>
-            <mouseicon>
-              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
-            </mouseicon>
-          </diagram>
-          <layoutmanager>
-            <ddsxmlobj />
-          </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Kat_Zakaznik" left="8120" top="9404" logicalid="14" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="AD\vrad00_vrad00_D_Kat_Zakaznik" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_F_kontrakt" left="2720" top="5783" logicalid="15" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000043110000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="AD\vrad00_vrad00_F_kontrakt" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Zdroj" left="5420" top="13684" logicalid="16" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="AD\vrad00_vrad00_D_Zdroj" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Okres" left="20" top="0" logicalid="17" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="AD\vrad00_vrad00_D_Okres" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Zakaznik" left="8120" top="4702" logicalid="18" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="AD\vrad00_vrad00_D_Zakaznik" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Typ_Zdroj" left="20" top="13895" logicalid="19" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="AD\vrad00_vrad00_D_Typ_Zdroj" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vrad00_D_Kraj" left="5420" top="211" logicalid="20" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="AD\vrad00_vrad00_D_Kraj" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="9221" top="6704" logicalid="21" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_D_Zakaznik_vrad00_D_Kat_Zakaznik]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="9620" y="9404" />
-              <point x="9620" y="7004" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="3920" top="9902" logicalid="22" controlid="9" masterid="0" hint1="0" hint2="0" width="3400" height="4282" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_F_kontrakt_vrad00_D_Zdroj]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="6920" y="13684" />
-              <point x="6920" y="11943" />
-              <point x="4220" y="11943" />
-              <point x="4220" y="10202" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="5420" top="5454" logicalid="23" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="2838" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_F_kontrakt_vrad00_D_Zakaznik]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="2" sourceattachpoint="12" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="8120" y="5853" />
-              <point x="6920" y="5853" />
-              <point x="6920" y="7992" />
-              <point x="5720" y="7992" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="1803" logicalid="24" controlid="11" masterid="0" hint1="0" hint2="0" width="3399" height="4280" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_F_kontrakt_vrad00_D_Okres]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="1520" y="2302" />
-              <point x="1520" y="4042" />
-              <point x="4220" y="4042" />
-              <point x="4220" y="5783" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="14435" logicalid="25" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_D_Zdroj_vrad00_D_Typ_Zdroj]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="3" sourceattachpoint="13" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="3020" y="14834" />
-              <point x="4220" y="14834" />
-              <point x="4220" y="14835" />
-              <point x="5420" y="14835" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="751" logicalid="26" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[FK_vrad00_D_Okres_vrad00_D_Kraj]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="4" sourceattachpoint="12" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="5420" y="1150" />
-              <point x="4220" y="1150" />
-              <point x="4220" y="1151" />
-              <point x="3020" y="1151" />
-            </connector>
-          </ddscontrol>
-        </dds>
-      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -325,48 +115,48 @@
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="1a0e54c5-a8c2-49a6-ba26-52add0d928a3">
+    <Dimension dwd:design-time-name="a1345c4e-70fa-48a5-84f7-a8377617fa62">
       <ID>Time</ID>
       <Name>Time</Name>
       <DimensionID>Time</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="33e12d86-1274-4686-be05-40a64a1be8e5">
+        <Attribute dwd:design-time-name="55afd665-855d-42df-b9bc-09a904c5f8a7">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1b7229c8-8f10-4b41-a465-276c12ef1d74">
+        <Attribute dwd:design-time-name="e0a0d8a4-1352-4ce5-8a30-d0205ba22d61">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8ef88ac6-c0ee-40c9-9eb3-07b52dae7c05">
+        <Attribute dwd:design-time-name="393d7361-91e7-41b8-9c5e-877f7b8b0523">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="22dacbd4-d4ef-4580-ba16-8a61ff8affe5">
+        <Attribute dwd:design-time-name="0967f25f-d84c-4f0d-b7f6-d026a3643595">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="25e899b8-db26-4e7e-9e7f-815923492ea3">
+        <Attribute dwd:design-time-name="86d9e5ae-e1c4-4f6f-b3a6-f96dadff96f1">
           <AttributeID>Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="614bbd38-e8f8-4756-8844-ab7c310afe63">
+        <Attribute dwd:design-time-name="b4acc5a8-61a6-41e9-9586-98df707939f2">
           <AttributeID>Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3db53b01-a7c8-4992-8bd6-95c24ea7cdff">
+        <Attribute dwd:design-time-name="10d88239-f8bd-4a76-bfa1-046f5fb65766">
           <AttributeID>Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1b910ac8-275a-4970-9eb6-3f66e8b0bf0d">
+        <Attribute dwd:design-time-name="5ed84715-1050-4723-8c5a-9209c93fe759">
           <AttributeID>Month Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="089a2a2e-a658-4470-abc9-f3f6b23da872">
+        <Attribute dwd:design-time-name="bf1ab555-133c-45df-83e7-cc5ae95081a3">
           <AttributeID>Month Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="051632df-df2a-4733-a6a8-1594608b6bbf">
+        <Attribute dwd:design-time-name="e0e90d61-ced1-4ac0-94cb-f7a03f7f8040">
           <AttributeID>Quarter Of Year</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="fc94efdd-6aaf-4736-9d10-817d872b8cd4">
+        <Hierarchy dwd:design-time-name="76daeb88-30dd-4970-87cf-a78f007d641d">
           <HierarchyID>Year -  Quarter -  Month -  Date</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="f6b33fa1-958e-43c3-b575-f38d79e8886d">
-          <HierarchyID>Hierarchy</HierarchyID>
+        <Hierarchy dwd:design-time-name="527203c3-3e88-4739-8336-cb0ad0bae690">
+          <HierarchyID>Year -  Quarter -  Month -  Date 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
@@ -386,7 +176,7 @@
           <Source dwd:design-time-name="a3221568-82d8-4436-aa95-08452e0c9916">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="17f8abfc-71b8-4412-b2d9-2201c63e1bc7">
-              <TableID>AD\vrad00_vrad00_F_kontrakt</TableID>
+              <TableID>AD_x005C_vrad00_vrad00_F_kontrakt</TableID>
               <ColumnID>cena</ColumnID>
             </Source>
           </Source>
@@ -398,7 +188,7 @@
           <Source dwd:design-time-name="4b7a46bd-42c9-49f2-8e7b-abb1bf9753a6">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="12e159a4-e481-47c1-9170-cbce55a7e89d">
-              <TableID>AD\vrad00_vrad00_F_kontrakt</TableID>
+              <TableID>AD_x005C_vrad00_vrad00_F_kontrakt</TableID>
               <ColumnID>marze</ColumnID>
             </Source>
           </Source>
@@ -410,7 +200,7 @@
           <Source dwd:design-time-name="0b8e052d-d4c2-4a00-8197-8263d0e019a3">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="2a90289b-b8df-4a7e-b78b-85fa3e5cd392">
-              <TableID>AD\vrad00_vrad00_F_kontrakt</TableID>
+              <TableID>AD_x005C_vrad00_vrad00_F_kontrakt</TableID>
               <ColumnID>delka_trvani</ColumnID>
             </Source>
           </Source>
@@ -424,7 +214,7 @@
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
             <Source xsi:type="RowBinding" dwd:design-time-name="6375bbfd-f05b-4cec-8be3-eb30fad3bd73">
-              <TableID>AD\vrad00_vrad00_F_kontrakt</TableID>
+              <TableID>AD_x005C_vrad00_vrad00_F_kontrakt</TableID>
             </Source>
           </Source>
           <FormatString>Standard</FormatString>
@@ -436,7 +226,7 @@
           <Source dwd:design-time-name="c420f6fa-96bc-4461-b85a-bce7b845118e">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="a715b74e-afad-432f-af58-21000de6133c">
-              <TableID>AD\vrad00_vrad00_F_kontrakt</TableID>
+              <TableID>AD_x005C_vrad00_vrad00_F_kontrakt</TableID>
               <ColumnID>delka_trvani</ColumnID>
             </Source>
           </Source>
@@ -456,7 +246,7 @@
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="fabccbe4-3ed6-4586-98af-5a32a4c17e8f">
-                    <TableID>AD\vrad00_vrad00_F_kontrakt</TableID>
+                    <TableID>AD_x005C_vrad00_vrad00_F_kontrakt</TableID>
                     <ColumnID>zdroj_id</ColumnID>
                   </Source>
                 </KeyColumn>
@@ -475,7 +265,7 @@
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="f7da1d96-c876-4414-a43d-9ccb2ab1e17e">
-                    <TableID>AD\vrad00_vrad00_F_kontrakt</TableID>
+                    <TableID>AD_x005C_vrad00_vrad00_F_kontrakt</TableID>
                     <ColumnID>zakaznik_id</ColumnID>
                   </Source>
                 </KeyColumn>
@@ -494,7 +284,7 @@
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="5060d6fd-ca8a-4202-8791-039898df137e">
-                    <TableID>AD\vrad00_vrad00_F_kontrakt</TableID>
+                    <TableID>AD_x005C_vrad00_vrad00_F_kontrakt</TableID>
                     <ColumnID>Okres_id</ColumnID>
                   </Source>
                 </KeyColumn>
@@ -503,16 +293,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="57ecaf44-4329-4158-9054-9739044e38ce">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="73ead7ce-42d9-4317-a7c1-61bbd7dd02c7">
           <CubeDimensionID>Time</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="8b8b8ff1-2445-44f9-a31d-567624458cfb">
+            <Attribute dwd:design-time-name="5d136f68-b1a1-4cbe-81b7-168702c3e8fb">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="122980a9-3511-4c28-9e40-28645bd3ee81">
+                <KeyColumn dwd:design-time-name="1680bfef-7781-41ff-89f5-a89004e9b408">
                   <DataType>Date</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4a70d2ac-7ba0-4fae-a48e-75db758d1e1f">
-                    <TableID>AD\vrad00_vrad00_F_kontrakt</TableID>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a50a1614-e0da-4d75-8081-9beee97a82f7">
+                    <TableID>AD_x005C_vrad00_vrad00_F_kontrakt</TableID>
                     <ColumnID>datum</ColumnID>
                   </Source>
                 </KeyColumn>

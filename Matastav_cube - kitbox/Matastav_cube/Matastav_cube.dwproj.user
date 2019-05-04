@@ -3,8 +3,8 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>localhost</TargetServer>
-        <TargetDatabase>cubes</TargetDatabase>
+        <TargetServer>kitbox2.vse.cz:20020</TargetServer>
+        <TargetDatabase>vrad00</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>
